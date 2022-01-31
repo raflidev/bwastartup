@@ -6,7 +6,7 @@ import (
 
 type Response struct {
 	Meta Meta        `json:"meta"`
-	Data interface{} `json:"deta"`
+	Data interface{} `json:"data"`
 }
 
 type Meta struct {
